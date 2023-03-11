@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/torchbtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#545859"
+        android:src="@drawable/torch_off" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="214dp"
+        android:layout_height="39dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="610dp"
+        android:layout_centerHorizontal="true"
+        android:text="TAP TO ON//OFF"
+        android:textStyle="bold"
+
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>
